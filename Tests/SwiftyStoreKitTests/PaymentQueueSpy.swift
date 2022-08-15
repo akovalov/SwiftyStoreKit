@@ -45,6 +45,11 @@ class PaymentQueueSpy: PaymentQueue {
         finishTransactionCalledCount += 1
     }
     
+    func presentCodeRedemptionSheet() {
+        
+    }
+    
+    
     func start(_ downloads: [SKDownload]) {
         
     }
